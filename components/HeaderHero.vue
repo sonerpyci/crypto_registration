@@ -112,7 +112,7 @@
 <script>
 export default {
   name: 'headerHero',
-  data () {poroject
+  data () {
     return {
       modalActive: false,
       subscriptionActive: false,

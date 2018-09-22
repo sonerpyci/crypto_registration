@@ -208,8 +208,8 @@
                 <table class="txt3">
                   <thead>
                   <tr>
-                    <th>Product</th>
-                    <th>Total</th>
+                    <th><span class="priceTh" >Product</span></th>
+                    <th><span class="priceTh" >Total</span></th>
                   </tr>
                   </thead>
                   <tbody>
@@ -220,12 +220,12 @@
                   </tbody>
                   <tfoot>
                   <tr>
-                    <th>Subtotal</th>
+                    <th><span class="priceTh" >Subtotal</span></th>
                     <td>$100</td>
                   </tr>
                   <tr style="height: 15px !important;"><td colspan="2"></td></tr>
                   <tr>
-                    <th>Total</th>
+                    <th><span class="priceTh" >Total</span></th>
                     <td>$100</td>
                   </tr>
 
@@ -466,6 +466,9 @@
   .Order {
     position: fixed;
     top: 25%;
+  }
+  .priceTh {
+    color: #abdde5 !important;
   }
   .registrationBody {
     background: #333;

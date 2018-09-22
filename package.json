@@ -1,7 +1,7 @@
 {
-  "name": "axaxaxa",
+  "name": "Crypto_Registration",
   "version": "1.0.0",
-  "description": "My splendid Nuxt.js project",
+  "description": "To register your own Crypto Currency",
   "author": "Soner Paycı",
   "private": true,
   "scripts": {
