@@ -1,0 +1,33 @@
+{
+  "name": "axaxaxa",
+  "version": "1.0.0",
+  "description": "My splendid Nuxt.js project",
+  "author": "Soner Paycı",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/icon": "^2.5.0",
+    "axios": "^0.18.0",
+    "bulma": "^0.4.3",
+    "font-awesome": "^4.7.0",
+    "node-sass": "^4.9.3",
+    "nuxt": "^1.0.0",
+    "sass-loader": "^6.0.6",
+    "vue-awesome": "^2.3.1",
+    "vue-select": "^2.4.0"
+  },
+  "devDependencies": {
+    "cross-env": "^5.0.1"
+  },
+  "config": {
+    "nuxt": {
+      "host": "0.0.0.0",
+      "port": "3333"
+    }
+  }
+}
