@@ -62,15 +62,15 @@
           <button class="modal-close is-medium" @click="toggleModal"></button>
         </div>
     </div>
-    <div id="overlay" class="overlay modal">
+    <!--<div id="overlay" class="overlay modal">
       <legend>varsa bu kısımla ilgili açıklamalar
         varsa bu kısımla ilgili açıklamalar
         varsa bu kısımla ilgili açıklamalar
         varsa bu kısımla ilgili açıklamalar
         varsa bu kısımla ilgili açıklamalar</legend>
-      <!-- Popup Div Starts Here -->
+      <!-- Popup Div Starts Here
       <div id="popupContact">
-        <!-- Contact Us Form -->
+        <!-- Contact Us Form
         <form action="/kaydet.php" id="form" method="post" name="form">
           <h2 id="subscribeH2">Subscribe Us!</h2>
           <hr>
@@ -104,8 +104,8 @@
         </form>
         <button id="closePopUp" class="modal-close is-medium" @click="div_hide"></button>
       </div>
-      <!-- Popup Div Ends Here -->
-    </div>
+      <!-- Popup Div Ends Here
+    </div>-->
   </div>
 </template>
 
@@ -138,7 +138,6 @@ export default {
         alert("Fill All Fields !");
       } else {
         return this.subscription_post();//returnu kaldır
-        alert("Form Submitted Successfully...");
       }
     },
 //Function To Display Popup

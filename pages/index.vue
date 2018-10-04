@@ -378,9 +378,23 @@
           alert("An Error Encountered");
           console.log(err);
         });
-        alert("Form Submitted Successfully...");
       },
       check_empty: function () {
+        console.log(document.getElementById('first-name').value)
+        console.log(document.getElementById('last-name').value)
+        console.log(document.getElementById('email').value)
+        console.log(document.getElementById('phone').value)
+        console.log(document.getElementById('password').value)
+        console.log(document.getElementById('coinTicker').value)
+        console.log(document.getElementById('coinName').value)
+        console.log(document.getElementById('collateralAmount').value)
+        console.log(document.getElementById('btcTalkAnn').value)
+        console.log(document.getElementById('github').value)
+        console.log(document.getElementById('sourceCode').value)
+        console.log(document.getElementById('selectxchange').value)
+        console.log(document.getElementById('homepage').value)
+        console.log(document.getElementById('blockExplorer').value)
+        console.log(document.getElementById('coinLogo').value)
         if (
           document.getElementById('first-name').value === "" ||
           document.getElementById('last-name').value === "" ||
