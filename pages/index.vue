@@ -366,7 +366,7 @@
           "coinLogo": document.getElementById('coinLogo').value
         };
         console.log(data);
-        axios.post('http://localhost:3000/registration', data)
+        axios.post('http://api.masternodeum.com:3000/registration', data)
           .then(response => {
             console.log(response);
             if(response.data.success === true){
